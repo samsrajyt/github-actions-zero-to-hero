@@ -1,0 +1,19 @@
+name: Hello
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  greet:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: say hello to users
+        run: echo "Hello Makale"
+
+      - name: say hello to users
+        run: echo "Hello $USER"
+
+    
+  
+  
